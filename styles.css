@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.main-header {
+    background-color: #1F2937;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px 24px;
+    justify-content: space-evenly;
+    gap: 25%;
+}
+
+.header-top {
+    font-size: 18px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.logo-container {
+    display: flex; 
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list  {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px; 
+}
+
+.nav-bar a {
+    color: #f9faf8;
+    font-size: 12px;
+    text-decoration: none;
+}
