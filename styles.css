@@ -3,7 +3,7 @@ body {
 }
 
 .main-header {
-    background-color: #1F2937;
+    background-color: #424242;
     color: black;
     display: flex;
     flex-wrap: wrap;
@@ -43,13 +43,15 @@ body {
 }
 
 .hero-block {
-    background-color: #1F2937;
     color: #f9faf8;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     padding: 60px 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('img/r4shbg.png');
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-content {
@@ -86,7 +88,6 @@ body {
 
 #video-demo {
     flex-grow: 1;
-    text-align: center;
 }
 
 #video-demo iframe {
@@ -97,6 +98,14 @@ body {
     margin: 0;
     padding: 12px 0px 12px 0px;
     text-align: center;
+}
+
+.features-description {
+    font-size: 16px;
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    color: #4B5563;
 }
 
 .features-section {
