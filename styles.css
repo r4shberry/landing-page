@@ -67,12 +67,16 @@ body {
     font-size: 36px;
     font-weight: bold;
     margin: 0;
-    padding: 12px 0px 12px 0px;
+    padding: 12px 0px 0px 0px;
 }
 
 .hero-subtitle {
     font-size: 18px;
-    margin: 20px 0 20px 0;
+}
+
+.hero-title, .hero-subtitle {
+    max-width: 560px;
+    max-height: 315px;
 }
 
 .hero-button {
@@ -145,8 +149,8 @@ body {
     box-sizing: border-box;
     min-width: 250px;
     max-width: 250px;
-    min-height: 533.3px;
-    max-height: 533.3px;    
+    min-height: 500px;
+    max-height: 500px;    
 }
 
 .feature-item h3 {
