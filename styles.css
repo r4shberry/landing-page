@@ -45,9 +45,10 @@ body {
 .hero-block {
     color: #f9faf8;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    gap: 40px;
     padding: 60px 50px;
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('img/r4shbg.png');
     background-size: cover;
@@ -89,9 +90,8 @@ body {
 #video-demo {
     flex-grow: 1;
     overflow: hidden;
-}
-
-#video-demo iframe {
+    max-width: 560px;
+    max-height: 315px;
 }
 
 .features-p {
@@ -125,18 +125,16 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    gap: 40px;
     width: 100%;
-    border: red solid 3px;
 }
 
 .feature-item {
-    min-width: 250px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border: red solid 3px;
 }
 
 .feature-video {
@@ -145,16 +143,14 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     flex: 1 1 calc(33% - 40px);
     box-sizing: border-box;
-}
-
-.feature-item img {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 15px;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 533.3px;
+    max-height: 533.3px;    
 }
 
 .feature-item h3 {
     font-size: 16px;
     align-items: center;
-
+    max-width: 250px;
 }
