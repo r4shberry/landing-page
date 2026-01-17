@@ -3,103 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-    <title>Document</title>
+    <meta name="description" content="R4shberry Database - A collection of chilling historical mysteries and unsolved crimes.">
+    <title>R4shberry Database | Historical Mysteries</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header class="main-header">
         <div class="logo-container">
             <h1 class="header-top">r4shberry database</h1>
         </div>
-        <div class="nav-bar">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#home">Home</a></li>
-                    <li class="nav-item"><a href="#about">About</a></li>
-                    <li class="nav-item"><a href="#services">Services</a></li>
-                    <li class="nav-item"><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="nav-bar" aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="hero-block">
-        <div class="hero-content">
-            <h2 class="hero-title">R4shberry Database</h2>
-            <p class="hero-subtitle">This is my practice for HTML-CSS practice only.</p>
-            <button class="hero-button">Get Started</button>
-        </div>
-        <div class="hero-video">
-            <iframe 
-                src="https://www.youtube-nocookie.com/embed/xjSINsBOGSo" 
-                title="YouTube video player" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen
-                referrerpolicy="strict-origin-when-cross-origin">                
-            </iframe>
-        </div>
-    </div>
-    <div class="features-section">
-        <div class="features-p">
-            <p>Youtube Shorts</p>
-            <p class="features-description">This playlist brings together chilling YouTube Shorts about unsolved crimes, forgotten murders, and real historical mysteries that still haunt the world today. From Victorian-era terror to cases that ended without answers, each short delivers fast, cinematic storytelling designed to leave you unsettled.</p>
-        </div>
-        <div class="features-grid">
-            <div class="feature-item">
-                <h3 class="feature-title">The Austin Axe Murders (1884)</h3>
+
+    <main>
+        <section class="hero-block" id="home">
+            <div class="hero-content">
+                <h2 class="hero-title">R4shberry Database</h2>
+                <p class="hero-subtitle">Portfolio, still in progress.</p>
+                <button type="button" class="hero-button">Get Started</button>
+            </div>
+            <div class="hero-video">
                 <iframe 
-                    width="300" 
-                    height="533.3" 
-                    src="https://www.youtube-nocookie.com/embed/JeXZggKoRNI" 
-                    title="YouTube video player" 
-                    frameborder="0" 
+                    src="https://www.youtube-nocookie.com/embed/YKHlgoOMoms" 
+                    title="Introduction Video" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen
-                    referrerpolicy="strict-origin-when-cross-origin" class="feature-video">
+                    loading="lazy">                
                 </iframe>
             </div>
-            <div class="feature-item">
-                <h3 class="feature-title">The Mystery of the Mary Celeste (1872)</h3>
-                <iframe 
-                    width="300" 
-                    height="533.3" 
-                    src="https://www.youtube-nocookie.com/embed/X4Kufn60dVM" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen
-                    referrerpolicy="strict-origin-when-cross-origin" class="feature-video">
-                </iframe>
+        </section>
+
+        <section class="features-section" id="services">
+            <header class="section-intro">
+                <h2>Social Media Shorts Uploads</h2>
+                <p class="features-description">
+                    This playlist brings together chilling YouTube Shorts about unsolved crimes, forgotten murders, and real historical mysteries. 
+                    From Victorian-era terror to cases that ended without answers.
+                </p>
+                <nav class="features-nav-socials" aria-label="socials feature navigation">
+                    <ul class="features-nav-social-list">
+                        <li><a href="https://www.tiktok.com/@rashberry.pi" target="_blank" rel="noopener noreferrer"><button class="feature-tiktok-button" aria-hidden="true">Tiktok</button></a></li>
+                        <li><a href="https://youtube.com/playlist?list=PLMdi3-q9Mhtgaapk2KFa2zlozyM9hEEe-&si=Vs50xBl5fF4QT0Ij"  target="_blank" rel="noopener noreferrer"><button class="feature-yt-button" aria-hidden="true">Youtube Shorts</button></a></li>
+                    </ul>
+            </header>
+
+            <div class="features-grid">
+                <article class="feature-item">
+                    <h3>The Austin Axe Murders (1884)</h3>
+                    <iframe 
+                        width="300" 
+                        height="533" 
+                        src="https://www.youtube-nocookie.com/embed/JeXZggKoRNI" 
+                        title="The Austin Axe Murders" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen
+                        loading="lazy"
+                        class="feature-video">
+                    </iframe>
+                </article>
+
+                <article class="feature-item">
+                    <h3>The Mystery of the Mary Celeste (1872)</h3>
+                    <iframe 
+                        width="300" 
+                        height="533" 
+                        src="https://www.youtube-nocookie.com/embed/X4Kufn60dVM" 
+                        title="The Mystery of the Mary Celeste" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen
+                        loading="lazy"
+                        class="feature-video">
+                    </iframe>
+                </article>
+
+                <article class="feature-item">
+                    <h3>The Thames Torso Murders (1887)</h3>
+                    <iframe 
+                        width="300" 
+                        height="533" 
+                        src="https://www.youtube-nocookie.com/embed/Nq-uR7I8cus" 
+                        title="The Thames Torso Murders" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen
+                        loading="lazy"
+                        class="feature-video">
+                    </iframe>
+                </article>
             </div>
-            <div class="feature-item">
-                <h3 class="feature-title">The Thames Torso Murders (1887)</h3>
-                <iframe 
-                    width="300" 
-                    height="533.3" 
-                    src="https://www.youtube-nocookie.com/embed/Nq-uR7I8cus" 
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen
-                    referrerpolicy="strict-origin-when-cross-origin" class="feature-video">
-                </iframe>
-            </div>
-        </div>
-    </div>
+        </section>
+    </main>
+
     <footer class="main-footer">
         <div class="footer-copyright">
             <p>&copy; 2024 R4shberry Database. All rights reserved.</p>
         </div>
-        <div class="footer-links">
-            <nav class="footer-nav">
-                <ul class="footer-nav-list">
-                    <li class="footer-nav-item"><a href="#privacy">Privacy Policy</a></li>
-                    <li class="footer-nav-item"><a href="#terms">Terms of Service</a></li>
-                    <li class="footer-nav-item"><a href="#contact">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+            <ul class="footer-nav-list">
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#terms">Terms of Service</a></li>
+                <li><a href="#contact">Hire me</a></li>
+            </ul>
+        </nav>
     </footer>
+
 </body>
 </html>
